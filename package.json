@@ -1,0 +1,39 @@
+{
+  "name": "serverless-express-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrasat/serverless-express-graphql.git"
+  },
+  "author": "andrasat <andra.satria1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrasat/serverless-express-graphql/issues"
+  },
+  "homepage": "https://github.com/andrasat/serverless-express-graphql#readme",
+  "dependencies": {
+    "aws-serverless-express": "^3.2.0",
+    "babel-runtime": "^6.26.0",
+    "bluebird": "^3.5.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "source-map-support": "^0.5.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-source-map-support": "^2.0.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "serverless-offline": "^3.20.3",
+    "serverless-webpack": "^5.1.1",
+    "webpack": "^4.6.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
