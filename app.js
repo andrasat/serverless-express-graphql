@@ -8,6 +8,7 @@ const app = express();
 
 app.use(cors());
 app.use(ExpressServerlessMiddleware.eventContext());
+app.set('etag', false);
 
 app.get('/', (req, res) => {
 
