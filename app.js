@@ -10,18 +10,16 @@ app.use(cors());
 app.use(ExpressServerlessMiddleware.eventContext());
 app.set('etag', false);
 
-app.get('/', (req, res) => {
-
+app.get('/index', (req, res) => {
 	return res.status(200).json({
-		message: 'ENTRY POINT !'
-	})
+		message: 'ENTRY POINT !',
+	});
 });
 
 app.get('/test', (req, res) => {
-
 	return res.status(200).json({
-		message: 'SUCCESS !'
-	})
+		message: 'SUCCESS !',
+	});
 });
 
 export default app;

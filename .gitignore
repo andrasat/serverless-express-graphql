@@ -15,6 +15,9 @@ build/Release
 # IDE
 **/.idea
 
+# VSCode
+.vscode
+
 # OS
 .DS_Store
 .tmp
